@@ -1,15 +1,11 @@
 //  Pseudorandom numbers from a truncated Gaussian distribution.
 //
-//  This implements an extension of Chopin's algorithm detailed in
+//  This implements the zigguart algorithm from
 //  N. Chopin, "Fast simulation of truncated Gaussian distributions",
 //  Stat Comput (2011) 21:275-288
 //
-//  Copyright (C) 2012 Guillaume Dollé, Vincent Mazet
-//  (LSIIT, CNRS/Université de Strasbourg)
-//  Version 2012-07-04, Contact: vincent.mazet@unistra.fr
-//
-//  06/07/2012:
-//  - first launch of rtnorm.cpp
+//  The code is based on the implementation by Guillaume Dollé, Vincent Mazet
+//  available from http://miv.u-strasbg.fr/mazet/rtnorm/.
 //
 //  Licence: GNU General Public License Version 2
 //  This program is free software; you can redistribute it and/or modify it
@@ -21,9 +17,6 @@
 //  GNU General Public License for more details. You should have received a
 //  copy of the GNU General Public License along with this program; if not,
 //  see http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
-//
-//  Depends: LibGSL
-//  OS: Unix based system
 
 
 #ifndef __RTNORM_HPP
