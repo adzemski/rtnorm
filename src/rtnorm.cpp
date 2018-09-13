@@ -1,11 +1,17 @@
 //  Pseudorandom numbers from a truncated Gaussian distribution.
 //
+//  Copyright (C) 2018 Andreas Dzemski, andreas.dzemski@gmail.com
+//
 //  This implements the zigguart algorithm from
 //  N. Chopin, "Fast simulation of truncated Gaussian distributions",
 //  Stat Comput (2011) 21:275-288
 //
 //  The code is based on the implementation by Guillaume Dollé, Vincent Mazet
-//  available from http://miv.u-strasbg.fr/mazet/rtnorm/.
+//  available from http://miv.u-strasbg.fr/mazet/rtnorm/. In particular, the
+//  rtchopin_twosided and rtchopin_onesided are derived from their code. 
+//  Andreas Dzemski adapted these functions to the R environment on Sep 13, 2018 by 
+//  changing the random number generation using the GNU Scientific library to 
+//  native R functions.
 //
 //  Licence: GNU General Public License Version 2
 //  This program is free software; you can redistribute it and/or modify it
